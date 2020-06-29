@@ -8,6 +8,9 @@ Vue.config.productionTip = false
 import vant from 'vant'
 import 'vant/lib/index.css'
 Vue.use(vant)
+//import axios from 'axios'
+
+//Vue.prototype.axios=axios
 /* eslint-disable no-new */
 new Vue({
   el: '#app',
