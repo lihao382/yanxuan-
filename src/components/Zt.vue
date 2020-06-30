@@ -1,6 +1,6 @@
 <template>
   <div id="zt">
-    <div>
+    <div >
       <p>精选专题</p>
       <van-icon name="arrow" />
     </div>
