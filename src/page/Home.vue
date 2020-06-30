@@ -1,14 +1,18 @@
 <template>
   <div class="home">
       <Banner></Banner>
+      <Kanjia></Kanjia>
+      <Zt></Zt>
   </div>
 </template>
 
 <script>
-import Banner from '../components/Banner'
+import Banner from '../components/Banner';
+import Kanjia from '../components/Kanjia';
+import Zt from '../components/Zt'
 export default {
 name:"home",
-components:{Banner},
+components:{Banner,Kanjia,Zt},
 data() {
 return {
     

@@ -14,4 +14,7 @@ export default {
 *{
     margin: 0;padding: 0;list-style: none;
 }
+body{
+    font-size: 0.12rem;
+}
 </style>

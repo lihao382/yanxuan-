@@ -27,7 +27,7 @@
 </template>
 
 <script>
-import axios from 'axios'
+//import axios from 'axios'
 export default {
 name:"banner",
 data() {
@@ -37,8 +37,8 @@ return {
 },
 //生命周期 - 创建完成（访问当前this实例）
 created() {
-     axios.get("https://api.it120.cc/small4/banner/list").then((res)=>{
-        console.log(res)
+     this.http.get("https://api.it120.cc/small4/banner/list").then((res)=>{
+        //console.log(res)
         this.banner=res.data.data
     })
 },
@@ -62,7 +62,7 @@ mounted() {
 }
 #banner .nav{
     width: 100%;
-    height: 140px;
+    height: 1.4rem;
     background: white;
     position: absolute;
     left: 0;
@@ -83,10 +83,10 @@ mounted() {
     width: 25%;
 }
 .nav li img{
-    width: 58px;
+    width: 50px;
 }
 .nav>li>p{
-    font-size: 26px;
+    font-size: 0.2rem;
     margin-top: 17px;
 }
 </style>
